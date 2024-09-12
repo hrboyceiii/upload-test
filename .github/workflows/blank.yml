@@ -44,7 +44,7 @@ jobs:
           echo "File2' > file2.txt
           cd ..
 
-      - uses: actions/upload-artifact@4
+      - uses: actions/upload-artifact@v4.1.0
         name: Upload test
         with:
           name: coverage
