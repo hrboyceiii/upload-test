@@ -39,9 +39,9 @@ jobs:
         run: |
           mkdir dir1 && cd dir1
           mkdir dir2 && cd dir2
-          echo 'File1' > file1.txt
+          echo "File1" > file1.txt
           cd ..
-          echo "File2' > file2.txt
+          echo "File2" > file2.txt
           cd ..
 
       - uses: actions/upload-artifact@v4.1.0
